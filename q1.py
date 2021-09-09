@@ -3,9 +3,10 @@
 
 
 class ToyTCPStream:
+    data = {}
+    
     def receive(self, chunk, data):
-        pass
-
+        self.data[str(chunk)] = data
 
     def read(self, data):
         pass
