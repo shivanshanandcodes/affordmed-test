@@ -1,5 +1,5 @@
 #Author : Shivansh Anand
-#Compression algorithm : Simple run length compression algorithm ( satifies the given sample strings )
+#Compression algorithm : Simple run length compression algorithm ( satisfies the given sample strings )
 
 
 def compress(str):
